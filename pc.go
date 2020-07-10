@@ -4,8 +4,7 @@ import (
 	"sync"
 )
 
-type Task struct {
-	Data string
+type Task interface {
 }
 
 type AbstructPC struct {
